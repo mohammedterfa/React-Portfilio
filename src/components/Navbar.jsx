@@ -31,6 +31,29 @@ const Navbar = () => {
           <p className='text-white text-[18px] font-bold cursor-pointer'>Mohammed Terfa</p>
 
         </Link>
+        <ul className="list-none hidden sm:flex flex-row gap-10">
+          {navLinks.map((link) => (
+            <li
+              key={link.id}
+              className={`${
+                active === link.title
+                ? "text-white"
+                : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`
+            } onClick={() => setActive(link.title)}
+            >
+              <a href={`#${link.id}`}>{link.title}</a>
+            </li>
+          ))}
+        </ul>
+
+        <div className="sm:hidden flex flex-1 justify-end items-center">
+            <img src={menu} 
+            alt="menu"
+            className="w-[28px] h-[28px] object-contain cursor-pointer"
+            onClick={() => setToggle(!toggle)}
+            />
+        </div>
       </div>
       
     </nav>
