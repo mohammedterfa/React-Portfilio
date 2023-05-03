@@ -70,7 +70,6 @@ const Navbar = () => {
             } onClick={() => {
               setToggle(!toggle);  
               setActive(link.title);
-              
             }}
 
             >
