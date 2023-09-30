@@ -43,15 +43,15 @@ import {
   
   const services = [
     {
-      title: "Full Stack Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
-      title: "React Developer",
+      title: "Vue",
       icon: mobile,
     },
     {
-      title: "Laravel Developer",
+      title: "Laravel",
       icon: backend,
     },
     {
@@ -121,55 +121,54 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Full Stack Developer",
+      company_name: "Altwaijri Computer Systems Group",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2023 - Now",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Optimize company website performance by reducing load times and improving site speed, making it both user and SEO-friendly.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Full Stack Developer",
+      company_name: "TRAFFIC",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2023 - Apr 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications using Laravel and other related technologies.",
+        "I was responsible for collaborating with a cross-functional team to develop a comprehensive human resource management system",
+        "Creating a scalable and adaptable software infrastructure to facilitate ongoing expansion and enhancement.",
+        "Working in creating APIs to seamlessly integrate system functionalities with both Android and iOS mobile applications.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Graphic Designer",
+      company_name: "Ease Group",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Mar 2021 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "I worked as a graphic designer, in the e-marketing department.",
+        "I was responsible for designing social media posters for many clients, as well as designing publications and creating visual identities for clients, and I was also helping to make animation videos.",
+        ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Full Stack Developer",
+      company_name: "Freelance",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2020 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications.",
+        "Craft web solutions that are not just functional but also architecturally sound, ensuring scalability and performance optimization.",
+        "Write clean, efficient, and maintainable code using the latest web technologies, adhering to industry best practices and standards.",
+        "Prioritize user-centered design, enhancing the overall user experience through intuitive navigation and interactive elements.",
+        " Create responsive designs that adapt seamlessly to various screen sizes, from desktops to smartphones, offering an optimal user experience.",
       ],
     },
   ];
@@ -177,7 +176,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Terfa proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -185,7 +184,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Terfa does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -193,7 +192,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Terfa optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -203,62 +202,62 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Wasl HR",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based HR platform that allows users to manage employee data, track employee performance and attendance, providing a convenient and efficient solution for HR needs.",
       tags: [
         {
-          name: "react",
+          name: "bootstrap",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "mysql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Laravel",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://waslhr.com/",
     },
     {
-      name: "Job IT",
+      name: "Estgbal Alkher",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web application that allows users to donate items they do not benefit from and donate them to those in need through the site. All management processes for these things are done through the site. It has a part for the donor, a part for the driver who delivers donations, a part for the system manager, a part for the warehouse administrator, a part for the accountant, and a part for reports.",
       tags: [
         {
-          name: "react",
+          name: "bootsrap",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "ASP.NET",
           color: "green-text-gradient",
         },
         {
           name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://estgbal-alkher.com/",
+    },
+    {
+      name: "Al-Wafi Law Firm Program",
+      description:
+        "Web-based program used by lawyers to record and manage legal operations, cases, and debt collection. It has an accounting part and a legal part. The program facilitates the work of lawyers and their assistants in tracking cases and issues.",
+      tags: [
+        {
+          name: "ASP.NET",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Angular",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Rest API",
           color: "pink-text-gradient",
         },
       ],

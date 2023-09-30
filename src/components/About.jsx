@@ -49,7 +49,7 @@ const About = () => {
       >
 
         I'm a skilled software developer with Experience in PHP and JavaScript, and
-        expertise in frameworks like React, Laravel, and collaborate closely with clients to create efficient, scalable, and 
+        expertise in frameworks like Vue, Laravel, and collaborate closely with clients to create efficient, scalable, and 
         user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
 
 
